@@ -17,6 +17,44 @@ bun create marcosgomesneto/bun-elysiajs
 
 This command will clone the template repository and set up your project with the necessary dependencies and configurations. From there, you can start building your API with confidence.
 
+## Available Commands:
+
+The following commands are available in the `package.json` file and can be executed using the command `bun <command-name>`:
+
+- **Development Server:**
+    
+    ```shell
+    bun dev
+    ```
+    
+    This command starts the development server with watch mode, allowing for automatic recompilation on file changes.
+    
+- **Build:**
+    
+    ```shell
+    bun build
+    ```
+    
+    Use this command to build your TypeScript files for production.
+    
+- **Start Production Server:**
+      
+    ```shell
+    bun start
+    ```
+    
+    Start your API server in production mode.
+    
+- **Run Tests:**
+        
+    ```shell
+    bun test
+    ```
+    
+    Execute tests using this command.
+
+## ⭐ Star this repository
+
 🔍 Explore the project structure and customize it according to your API requirements. The template is set up with an example route to get you started.
 
 🌟 Start building your API with ElysiaJS and TypeScript. Happy coding!
